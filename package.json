@@ -1,0 +1,33 @@
+{
+  "name": "peano-curve-cli",
+  "version": "1.0.0",
+  "description": "Print the Peano Curve to the console!",
+  "main": "./src/index.js",
+  "bin": {
+    "peano-curve-cli": "./src/cli.js"
+  },
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spirometaxas/peano-curve-cli.git"
+  },
+  "scripts": {
+    "cli": "node ./src/cli.js"
+  },
+  "author": "Spiro Metaxas",
+  "license": "MIT",
+  "keywords": [ 
+    "Peano",
+    "Peano Curve", 
+    "fractal",
+    "fractals", 
+    "peano-curve-cli", 
+    "cli",
+    "console",
+    "terminal",
+    "shell",
+    "unicode" 
+  ]
+}
